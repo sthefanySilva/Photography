@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="pt-br">
+	<head> 
+		<meta charset="utf-8"/>
+		<title> Sobre Nós</title>
+		<link rel="stylesheet" type="text/css" href="./css/fotos.css" media="(min-width: 330px)"/>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+ 		
+		<script type="text/javascript" src="./js/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$('#nav-menu').click(function(){
+			     $('ul.nav-list').addClass('open').slideToggle('200');
+			 	});
+			
+				$(".fotos").on("click", function(){
+					var img = $(this).find("img").attr("src");
+					
+					$(".moddle-img").attr("src", img);
+
+					$(".moddle").css("display", "flex");
+				});
+				$(".moddle").on("click", function(){
+					$(this).css("display", "none");
+					$(".moddle-img").attr("src", "#")
+				});
+			});
+			
+		</script>
+		
+	</head>
+	<body>
+		<nav class="nav-bar">
+	  	 	<div class="nav-container"> 
+	       	 <a id="nav-menu" class="nav-menu">&#9776; Menu</a>
+	       	 <ul class="nav-list " id="nav">
+	            <li> <a href="./index.html" id="home">Home</a></li>
+	            <li> <a href="./conceituais_albuns.html" id="conceituais">Conceituais</a></li>
+	            <li> <a href="./natureza_albuns.html" id="natureza">Natureza</a></li>
+	            <li> <a href="./ensaios_albuns.html" id="ensaios">Ensaios</a></li>
+	            <li> <a href="./sobre_nos.html" id="sobre">Sobre nós</a></li>
+	       	 </ul>
+	    	</div>
+		</nav>
+		<div class="album1">
+			<div class="fotos">
+				<img src="http://fashioncoolture.com.br/wp-content/uploads/2017/09/FashionCoolture-12.09.2017-look-du-jour-Dafiti-saia-midi-preto-e-branco-1.jpg">
+			</div>
+			<div class="fotos">
+				<img class="centro" src="http://fashioncoolture.com.br/wp-content/uploads/2017/09/FashionCoolture-12.09.2017-look-du-jour-Dafiti-saia-midi-preto-e-branco-2.jpg">
+			</div>
+			
+			<div class="fotos" >
+				<img class="esquerda" src="http://fashioncoolture.com.br/wp-content/uploads/2017/09/FashionCoolture-12.09.2017-look-du-jour-Dafiti-saia-midi-preto-e-branco-4.jpg">
+			</div>
+			<div class="fotos">
+				<img class="centro" src="http://fashioncoolture.com.br/wp-content/uploads/2017/09/FashionCoolture-12.09.2017-look-du-jour-Dafiti-saia-midi-preto-e-branco-6.jpg">
+			</div>
+			<div class="fotos">
+				<img class="direita" src="http://fashioncoolture.com.br/wp-content/uploads/2017/09/FashionCoolture-12.09.2017-look-du-jour-Dafiti-saia-midi-preto-e-branco-7.jpg">
+			</div>
+		
+			<div class="fotos">
+				<img class="centro" src="http://fashioncoolture.com.br/wp-content/uploads/2016/10/FashionCoolture-11.10.2016-all-striped-outfit-1.jpg">
+			</div>
+			<div class="fotos">
+				<img  class="direita" src="http://fashioncoolture.com.br/wp-content/uploads/2016/10/FashionCoolture-11.10.2016-all-striped-outfit-2.jpg">
+			</div>
+			<div class="fotos">
+				<img  class="esquerda" src="http://fashioncoolture.com.br/wp-content/uploads/2016/10/FashionCoolture-11.10.2016-all-striped-outfit-3.jpg">
+			</div>
+			<div class="fotos">
+				<img class="centro" src="http://fashioncoolture.com.br/wp-content/uploads/2016/10/FashionCoolture-11.10.2016-all-striped-outfit-4.jpg">
+			</div>
+			<div class="fotos">
+				<img class="direita" src="http://fashioncoolture.com.br/wp-content/uploads/2016/10/FashionCoolture-11.10.2016-all-striped-outfit-5.jpg">
+			</div>
+			<div class="fotos">
+				<img class="esquerda" src="http://fashioncoolture.com.br/wp-content/uploads/2017/10/FashionCoolture-23.10-1.jpg">
+			</div>
+			<div class="fotos">
+				<img class="centro" src="http://fashioncoolture.com.br/wp-content/uploads/2017/10/FashionCoolture-23.10-2.jpg">
+			</div>
+			<div class="fotos">
+				<img class="direita" src="http://fashioncoolture.com.br/wp-content/uploads/2017/10/FashionCoolture-23.10-3.jpg">
+			</div>
+			<div class="fotos">
+				<img class="esquerda" src="http://fashioncoolture.com.br/wp-content/uploads/2017/10/FashionCoolture-23.10-4.jpg">
+			</div>
+			<div class="fotos">
+				<img class="centro" src="http://fashioncoolture.com.br/wp-content/uploads/2017/10/FashionCoolture-23.10-5.jpg">
+			</div>
+			<div class="fotos" >
+			
+				<img class="direita" src="http://fashioncoolture.com.br/wp-content/uploads/2017/11/FashionCoolture-20.11.2017-look-du-jour-1.jpg">
+			</div>
+			<div class="fotos">
+				<img class="esquerda" src="http://fashioncoolture.com.br/wp-content/uploads/2017/11/FashionCoolture-20.11.2017-look-du-jour-2.jpg">
+			</div>
+			<div class="fotos">
+				<img class="centro" src="http://fashioncoolture.com.br/wp-content/uploads/2017/11/FashionCoolture-20.11.2017-look-du-jour-4.jpg">
+			</div>
+		</div>	
+		<div class="moddle">
+			<img class="moddle-img" src="#" />
+		</div>
+
+
+		
+   		
+	</body>
+	
+</html>
+</html>	

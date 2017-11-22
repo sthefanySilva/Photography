@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-br">
+	<head> 
+		<meta charset="utf-8"/>
+		<title> Sobre Nós</title>
+		<link rel="stylesheet" type="text/css" href="./css/natureza_css.css" media="(min-width: 330px)"/>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+
+		<script type="text/javascript" src="./js/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$('#nav-menu').click(function(){
+			        $('ul.nav-list').addClass('open').slideToggle('200');
+			    });
+			});
+		</script>
+	</head>
+	<body>
+		
+		<nav class="nav-bar">
+	    <div class="nav-container"> 
+	        <a id="nav-menu" class="nav-menu">&#9776; Menu</a>
+	        <ul class="nav-list " id="nav">
+	            <li> <a href="./index.html" id="home">Home</a></li>
+	            <li> <a href="./conceituais_albuns.html" id="conceituais">Conceituais</a></li>
+	            <li> <a href="#" id="natureza">Natureza</a></li>
+	            <li> <a href="./ensaios_albuns.html" id="ensaios">Ensaios</a></li>
+	            <li> <a href="./sobre_nos.html" id="sobre">Sobre nós</a></li>
+	        </ul>
+	    </div>
+	</nav>
+		<main>
+			<div id="album">
+				<div class="albuns" id="album1">
+					<h4><a class="album1" href="./natu1.html" >Praias</a></h4>
+					<img src="https://pbs.twimg.com/media/CmBQjufXIAAeiok.jpg">
+				</div>
+				<div class="albuns" id="album2">
+					<h4><a href="./natu2.html">Animais</a></h4>
+					<img src="https://imgfave.azureedge.net/image_cache/1352321332830812.jpg">
+				</div>
+				<div class="albuns" id="album3">
+					<h4><a href="./natu3.html">Matas</a></h4>
+					<img src="https://static.tumblr.com/de5ff2be08f95191e98afcfcb11643b9/5vtxo4i/ZM4n21ja2/tumblr_static_tumblr_static_fundo_floresta.jpg">
+				</div>
+			</div>
+		</main>
+	</body>
+	<footer>
+		<h3>Photography</h3>
+	</footer>
+</html>

@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="pt-br">
+	<head> 
+		<meta charset="utf-8"/>
+		<title> Sobre Nós</title>
+		<link rel="stylesheet" type="text/css" href="./css/fotos.css" media="(min-width: 330px)"/>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+ 		
+		<script type="text/javascript" src="./js/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$('#nav-menu').click(function(){
+			     $('ul.nav-list').addClass('open').slideToggle('200');
+			 	});
+			
+				$(".fotos").on("click", function(){
+					var img = $(this).find("img").attr("src");
+					
+					$(".moddle-img").attr("src", img);
+
+					$(".moddle").css("display", "flex");
+				});
+				$(".moddle").on("click", function(){
+					$(this).css("display", "none");
+					$(".moddle-img").attr("src", "#")
+				});
+			});
+
+			
+		</script>
+		
+	</head>
+	<body>
+		<nav class="nav-bar">
+	  	 	<div class="nav-container"> 
+	       	 <a id="nav-menu" class="nav-menu">&#9776; Menu</a>
+	       	 <ul class="nav-list " id="nav">
+	            <li> <a href="./index.html" id="home">Home</a></li>
+	            <li> <a href="./conceituais_albuns.html" id="conceituais">Conceituais</a></li>
+	            <li> <a href="./natureza_albuns.html" id="natureza">Natureza</a></li>
+	            <li> <a href="./ensaios_albuns.html" id="ensaios">Ensaios</a></li>
+	            <li> <a href="./sobre_nos.html" id="sobre">Sobre nós</a></li>
+	       	 </ul>
+	    	</div>
+		</nav>
+		<div class="album1">
+			<div class="fotos">
+				<img class="esquerda" src="http://fashioncoolture.com.br/wp-content/uploads/2013/12/fashioncoolture-20-12-2013-look-du-jour-moikana-2.jpg">
+			</div>
+			<div class="fotos">
+				<img class="centro" src="http://fashioncoolture.com.br/wp-content/uploads/2013/12/fashioncoolture-20-12-2013-look-du-jour-moikana-1.jpg">
+			</div>
+			
+			<div class="fotos">
+				<img class="centro" src="http://fashioncoolture.com.br/wp-content/uploads/2013/12/fashioncoolture-20-12-2013-look-du-jour-moikana-4.jpg">
+			</div>
+			<div class="fotos">
+				<img class="direita" src="http://fashioncoolture.com.br/wp-content/uploads/2013/12/fashioncoolture-20-12-2013-look-du-jour-moikana-6.jpg">
+			</div>
+			<div class="fotos">
+				<img class="esquerda" src="http://fashioncoolture.com.br/wp-content/uploads/2013/12/fashioncoolture-20-12-2013-look-du-jour-moikana-7.jpg">
+			</div>
+			<div class="fotos">
+				<img class="centro" src="http://fashioncoolture.com.br/wp-content/uploads/2013/12/fashioncoolture-20-12-2013-look-du-jour-moikana-8.jpg">
+			</div>
+			<div class="fotos">
+				<img  class="direita" src="http://fashioncoolture.com.br/wp-content/uploads/2013/10/fashioncoolture-31-10-2013-look-du-jour-moikana-2.jpg">
+			</div>
+			<div class="fotos">
+				<img  class="esquerda" src="http://fashioncoolture.com.br/wp-content/uploads/2013/10/fashioncoolture-31-10-2013-look-du-jour-moikana-1.jpg">
+			</div>
+			<div class="fotos">
+				<img class="centro" src="http://fashioncoolture.com.br/wp-content/uploads/2013/10/fashioncoolture-31-10-2013-look-du-jour-moikana-3.jpg">
+			</div>
+			<div class="fotos">
+				<img class="direita" src="http://fashioncoolture.com.br/wp-content/uploads/2013/10/fashioncoolture-31-10-2013-look-du-jour-moikana-5.jpg">
+			</div>
+			<div class="fotos">
+				<img class="esquerda" src="http://fashioncoolture.com.br/wp-content/uploads/2013/10/fashioncoolture-31-10-2013-look-du-jour-moikana-51.jpg">
+			</div>
+			<div class="fotos">
+				<img class="centro" src="http://fashioncoolture.com.br/wp-content/uploads/2013/10/fashioncoolture-31-10-2013-look-du-jour-moikana-60.jpg">
+			</div>
+			<div class="fotos">
+				<img class="direita" src="http://fashioncoolture.com.br/wp-content/uploads/2013/10/fashioncoolture-31-10-2013-look-du-jour-moikana-7.jpg">
+			</div>
+			<div class="fotos">
+				<img class="esquerda" src="http://fashioncoolture.com.br/wp-content/uploads/2013/12/fashioncoolture-10-12-2013-look-du-jour-mary-must-3.jpg">
+			
+				<img class="centro" src="http://fashioncoolture.com.br/wp-content/uploads/2013/12/fashioncoolture-10-12-2013-look-du-jour-mary-must-7.jpg">
+			</div>
+			<div class="fotos" >
+				<img class="direita"  src="http://fashioncoolture.com.br/wp-content/uploads/2013/12/fashioncoolture-10-12-2013-look-du-jour-mary-must-2.jpg">
+			
+			</div>
+			<div class="fotos">
+				<img class="esquerda" src="http://fashioncoolture.com.br/wp-content/uploads/2013/12/fashioncoolture-10-12-2013-look-du-jour-mary-must-4.jpg">
+			</div>
+			<div class="fotos">
+				<img class="centro" src="http://fashioncoolture.com.br/wp-content/uploads/2013/12/fashioncoolture-10-12-2013-look-du-jour-mary-must-8.jpg">
+			</div>
+			<div class="fotos">
+				<img class="direita" src="http://fashioncoolture.com.br/wp-content/uploads/2013/12/fashioncoolture-10-12-2013-look-du-jour-mary-must-9.jpg">
+			</div>
+			<div class="fotos">
+				<img class="esquerda" src="http://fashioncoolture.com.br/wp-content/uploads/2013/12/fashioncoolture-26-12-2013-look-du-jour-dafiti-1.jpg">
+			</div>
+			<div class="fotos">
+				<img class="centro" src="http://fashioncoolture.com.br/wp-content/uploads/2013/12/fashioncoolture-26-12-2013-look-du-jour-dafiti-2.jpg">
+			</div>
+			<div class="fotos">
+				<img class="esquerda" src="http://fashioncoolture.com.br/wp-content/uploads/2013/12/fashioncoolture-26-12-2013-look-du-jour-dafiti-3.jpg">
+			</div>
+			<div class="fotos">
+				<img class="centro" src="http://fashioncoolture.com.br/wp-content/uploads/2013/12/fashioncoolture-26-12-2013-look-du-jour-dafiti-5.jpg">
+			</div>
+			<div class="fotos">
+				<img class="centro" src="http://fashioncoolture.com.br/wp-content/uploads/2013/12/fashioncoolture-26-12-2013-look-du-jour-dafiti-6.jpg">
+			</div>
+		</div>
+		<div class="moddle">
+			<img class="moddle-img" src="#" />
+		</div>
+
+
+
+
+		
+   			 </div>
+  		</div>
+	</body>
+	
+</html>
+</html>	

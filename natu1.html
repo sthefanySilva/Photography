@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="pt-br">
+	<head> 
+		<meta charset="utf-8"/>
+		<title> Sobre Nós</title>
+		<link rel="stylesheet" type="text/css" href="./css/fotos.css" media="(min-width: 330px)"/>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+ 		
+		<script type="text/javascript" src="./js/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$('#nav-menu').click(function(){
+			     $('ul.nav-list').addClass('open').slideToggle('200');
+			 	});
+			
+				$(".fotos").on("click", function(){
+					var img = $(this).find("img").attr("src");
+					
+					$(".moddle-img").attr("src", img);
+
+					$(".moddle").css("display", "flex");
+				});
+				$(".moddle").on("click", function(){
+					$(this).css("display", "none");
+					$(".moddle-img").attr("src", "#")
+				});
+			});
+
+			
+		</script>
+		
+	</head>
+	<body>
+		<nav class="nav-bar">
+	  	 	<div class="nav-container"> 
+	       	 <a id="nav-menu" class="nav-menu">&#9776; Menu</a>
+	       	 <ul class="nav-list " id="nav">
+	            <li> <a href="./index.html" id="home">Home</a></li>
+	            <li> <a href="./conceituais_albuns.html" id="conceituais">Conceituais</a></li>
+	            <li> <a href="./natureza_albuns.html" id="natureza">Natureza</a></li>
+	            <li> <a href="./ensaios_albuns.html" id="ensaios">Ensaios</a></li>
+	            <li> <a href="./sobre_nos.html" id="sobre">Sobre nós</a></li>
+	       	 </ul>
+	    	</div>
+		</nav>
+		<div class="album1">
+			<div class="fotos">
+				<img class="esquerda" src="https://pbs.twimg.com/media/CmBQjufXIAAeiok.jpg">
+			</div>
+			<div class="fotos">
+				<img class="centro" src="https://2.bp.blogspot.com/-kG-QEqDJxQw/VGJQmxhHDFI/AAAAAAAAe5Q/LT4jjnAF4zQ/s1600/praia-California.jpg">
+			</div>
+			<div class="fotos">
+				<img class="centro" src="https://pbs.twimg.com/media/CmBQjqeWkAADPDu.jpg">
+			</div>
+			<div class="fotos">
+				<img class="direita" src="https://pbs.twimg.com/media/CmBQjcPWgAABwXf.jpg">
+			</div>
+			<div class="fotos">
+				<img class="esquerda" src="https://pbs.twimg.com/media/CmBQlDBWEAIHM1Q.jpg">
+			</div>
+			<div class="fotos">
+				<img  class="direita" src="https://www.hotelesboutique.com/wp-content/uploads/bfi_thumb/xhoteles-boutique-de-mexico-islas-marietas1-2zigiz6viav9cnj7wql6v4.jpg.pagespeed.ic.MyI6k998zc.jpg">
+			</div>
+			<div class="fotos">
+				<img  class="esquerda" src="https://pbs.twimg.com/media/DPMC-A1VoAEo2z9.jpg">
+			</div>
+			<div class="fotos">
+				<img class="centro" src="https://pbs.twimg.com/media/DPL4mMhVAAAg769.jpg">
+			</div>
+			<div class="fotos">
+				<img class="direita" src="https://pbs.twimg.com/media/DPL4l9BVQAAJy1h.jpg">
+			</div>
+			<div class="fotos">
+				<img class="esquerda" src="https://pbs.twimg.com/media/DPL4l88VwAAWk7v.jpg">
+			</div>
+			<div class="fotos">
+				<img class="centro" src="https://pbs.twimg.com/media/DPGss2ZVoAAf0F6.jpg">
+			</div>
+			<div class="fotos">
+				<img class="esquerda" src="https://pbs.twimg.com/media/DO48r0iW0AAX99y.jpg">
+			</div>
+			<div class="fotos">
+				<img class="centro" src="https://pbs.twimg.com/media/DO94hfkX4AAmx24.jpg">
+			</div>
+			<div class="fotos">
+				<img class="direita" src="https://pbs.twimg.com/media/DO73K6OVAAAWxn2.jpg">
+			</div>
+			
+			<div class="fotos">
+				<img class="centro" src="https://pbs.twimg.com/media/DOxWRRdXcAEK04-.jpg">
+			</div>
+
+
+			<div class="fotos">
+				<img class="esquerda" src="https://1.bp.blogspot.com/-3Qp-oEbKa4k/V3wqyF3tQ7I/AAAAAAAAHWA/bPoELa-f4Y4ZlSLs602BKvDWHhnZSQVkwCLcB/s1600/california-beach-getaway-pismo-beach.jpg.rend.tccom.1280.960.jpeg">
+			</div>
+			<div class="fotos">
+				<img class="centro" src="http://cdn.wp.clicrbs.com.br/roteirodasara/files/2015/05/1405.jpg">
+			</div>
+			<div class="fotos" >
+				<img class="direita"  src="http://1.bp.blogspot.com/-KEI66WvC1zI/VI79hvbaV3I/AAAAAAAAgoY/t2mLJX0Q8Xo/s1600/praia-california-preffer-beach.jpg">
+			</div>
+
+
+			
+			<div class="fotos">
+				<img class="esquerda" src="https://pbs.twimg.com/media/DPGDiYGUQAAZeJJ.jpg">
+			</div>
+			<div class="fotos">
+				<img class="centro" src="https://pbs.twimg.com/media/DPEUOITVwAEfy_V.jpg">
+			</div>
+			<div class="fotos" >
+				<img class="direita"  src="https://pbs.twimg.com/media/DPEUOLDVQAAkFAC.jpg">
+			</div>
+			
+			
+		</div>
+		<div class="moddle">
+			<img class="moddle-img" src="#" />
+		</div>
+
+
+
+
+		
+   		
+	</body>
+	
+</html>
+</html>	

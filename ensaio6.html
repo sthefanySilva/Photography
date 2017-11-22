@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8"/>
+		<title> Sobre Nós</title>
+		<link rel="stylesheet" type="text/css" href="./css/fotos.css" media="(min-width: 330px)"/>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+
+		
+		<script type="text/javascript" src="./js/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$('#nav-menu').click(function(){
+			     $('ul.nav-list').addClass('open').slideToggle('200');
+			 	});
+			
+				$(".fotos").on("click", function(){
+					var img = $(this).find("img").attr("src");
+					
+					$(".moddle-img").attr("src", img);
+
+					$(".moddle").css("display", "flex");
+				});
+				$(".moddle").on("click", function(){
+					$(this).css("display", "none");
+					$(".moddle-img").attr("src", "#")
+				});
+			});
+
+
+		</script>
+
+	</head>
+	<body>
+		<nav class="nav-bar">
+	  	 	<div class="nav-container">
+	       	 <a id="nav-menu" class="nav-menu">&#9776; Menu</a>
+	       	 <ul class="nav-list " id="nav">
+	            <li> <a href="./index.html" id="home">Home</a></li>
+	            <li> <a href="./conceituais_albuns.html" id="conceituais">Conceituais</a></li>
+	            <li> <a href="./natureza_albuns.html" id="natureza">Natureza</a></li>
+	            <li> <a href="./ensaios_albuns.html" id="ensaios">Ensaios</a></li>
+	            <li> <a href="./sobre_nos.html" id="sobre">Sobre nós</a></li>
+	       	 </ul>
+	    	</div>
+		</nav>
+		<div class="album1">
+			<div class="fotos">
+				<img src="http://fashioncoolture.com.br/wp-content/uploads/2015/08/FashionCoolture-25.08.2015-look-du-jour-Lez-a-Lez-summer-printed-dress-denim-4.jpg">
+			</div>
+			<div class="fotos">
+				<img src="http://fashioncoolture.com.br/wp-content/uploads/2015/08/FashionCoolture-25.08.2015-look-du-jour-Lez-a-Lez-summer-printed-dress-denim-7.jpg">
+			</div>
+			<div class="fotos">
+				<img src="http://fashioncoolture.com.br/wp-content/uploads/2015/08/FashionCoolture-25.08.2015-look-du-jour-Lez-a-Lez-summer-printed-dress-denim-5.jpg">
+			</div>
+			<div class="fotos">
+				<img src="http://fashioncoolture.com.br/wp-content/uploads/2015/08/FashionCoolture-25.08.2015-look-du-jour-Lez-a-Lez-summer-printed-dress-denim-2.jpg">
+			</div>
+			<div class="fotos">
+				<img src="http://fashioncoolture.com.br/wp-content/uploads/2015/08/FashionCoolture-25.08.2015-look-du-jour-Lez-a-Lez-summer-printed-dress-denim-1.jpg">
+			</div>
+			<div class="fotos" >
+				<img class="especial1" src="http://fashioncoolture.com.br/wp-content/uploads/2015/08/FashionCoolture-25.08.2015-look-du-jour-Lez-a-Lez-summer-printed-dress-denim-6.jpg">
+				<img class="especial2" src="https://fashioncoolture.files.wordpress.com/2014/03/fashioncoolture-31-03-2014-look-du-jour-lafc3aa-31.jpg">
+			</div>
+			<div class="fotos">
+				<img  src="https://fashioncoolture.files.wordpress.com/2014/03/fashioncoolture-31-03-2014-look-du-jour-lafc3aa-11.jpg">
+			</div>
+			<div class="fotos">
+				<img  src="https://fashioncoolture.files.wordpress.com/2014/03/fashioncoolture-31-03-2014-look-du-jour-lafc3aa-21.jpg">
+			</div>
+			<div class="fotos">
+				<img src="https://fashioncoolture.files.wordpress.com/2014/03/fashioncoolture-31-03-2014-look-du-jour-lafc3aa-51.jpg">
+			</div>
+			<div class="fotos">
+				<img src="https://fashioncoolture.files.wordpress.com/2014/03/fashioncoolture-31-03-2014-look-du-jour-lafc3aa-71.jpg">
+			</div>
+			<div class="fotos">
+				<img src="https://fashioncoolture.files.wordpress.com/2014/03/fashioncoolture-31-03-2014-look-du-jour-lafc3aa-81.jpg">
+			</div>
+		</div>
+		<div class="moddle">
+			<img class="moddle-img" src="#" />
+		</div>
+	</body>
+
+</html>
+</html>

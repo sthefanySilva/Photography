@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="pt-br">
+	<head> 
+		<meta charset="utf-8"/>
+		<title> Sobre Nós</title>
+		<link rel="stylesheet" type="text/css" href="./css/fotos.css" media="(min-width: 330px)"/>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+
+		<script type="text/javascript" src="./js/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$('#nav-menu').click(function(){
+			     $('ul.nav-list').addClass('open').slideToggle('200');
+			 	});
+			
+				$(".fotos").on("click", function(){
+					var img = $(this).find("img").attr("src");
+					
+					$(".moddle-img").attr("src", img);
+
+					$(".moddle").css("display", "flex");
+				});
+				$(".moddle").on("click", function(){
+					$(this).css("display", "none");
+					$(".moddle-img").attr("src", "#")
+				});
+			});
+
+		</script>
+	</head>
+	<body>
+		
+		<nav class="nav-bar">
+	    <div class="nav-container"> 
+	        <a id="nav-menu" class="nav-menu">&#9776; Menu</a>
+	        <ul class="nav-list " id="nav">
+	            <li> <a href="./index.html" id="home">Home</a></li>
+	            <li> <a href="./conceituais_albuns.html" id="conceituais">Conceituais</a></li>
+	            <li> <a href="./natureza_albuns.html" id="natureza">Natureza</a></li>
+	            <li> <a href="./ensaios_albuns.html" id="ensaios">Ensaios</a></li>
+	            <li> <a href="./sobre_nos.html" id="sobre">Sobre nós</a></li>
+	        </ul>
+	    </div>
+	</nav>
+		<main>
+			<div class="album1">
+				
+				<div class="fotos">
+					<img class="centro" src="https://pbs.twimg.com/media/DPMS4_WXUAIxibi.jpg">
+				</div>
+				<div class="fotos">
+				<img class="esquerda" src="https://pbs.twimg.com/media/DPGAF91W4AAQesH.jpg">
+				</div>
+				<div class="fotos" >
+					<img class="esquerda" src="https://pbs.twimg.com/media/DPGI5SUWAAE-HE1.jpg">
+				</div>
+				
+				<div class="fotos">
+					<img class="esquerda" src="http://modaerotina.com.br/wp-content/uploads/2016/05/poses-para-instagram-fotos-com-celular-fotos-para-instagram-como-bombar-como-fazer-fotos-diferentes-fotos-criativas-leticia-cecato-moda-fotos-para-instagram-25-1.jpg">
+				</div>
+				<div class="fotos">
+					<img class="centro" src="https://data.whicdn.com/images/186951256/original.jpg">
+				</div>
+				<div class="fotos">
+					<img  class="direita" src="https://s7.favim.com/orig/150628/chesse-fitness-love-lunch-Favim.com-2862194.jpg">
+				</div>
+				<div class="fotos">
+					<img  class="esquerda" src="http://s9.favim.com/orig/131221/creative-creativity-cute-sky-Favim.com-1169769.jpg">
+				</div>
+				<div class="fotos">
+					<img class="centro" src="https://i.pinimg.com/originals/76/09/d8/7609d8296bd89a659bf7d457c6f3112f.jpg">
+				</div>
+				<div class="fotos">
+					<img class="direita" src="http://publistagram.com/wp-content/uploads/2013/01/Instagram-Fotos-8.jpg">
+				</div>
+				<div class="fotos">
+					<img class="esquerda" src="https://i.pinimg.com/236x/4d/0d/a5/4d0da5afc4073e6a184ed221fce6e377.jpg">
+				</div>
+				<div class="fotos">
+					<img class="centro" src="https://media.mnn.com/assets/images/2017/07/Daniel-Rueda_DrCuerda_Mother-Nature-Newtork_6.jpg.990x0_q80_crop-smart.jpg">
+				</div>
+				<div class="fotos">
+					<img class="direita" src="http://publistagram.com/wp-content/uploads/2013/01/Instagram-Fotos-3.jpg">
+				</div>
+				<div class="fotos">
+					<img class="esquerda" src="https://pbs.twimg.com/media/DPK_YSZXcAAFiz0.jpg">
+				</div>
+				<div class="fotos">
+					<img class="centro" src="https://pbs.twimg.com/media/DPJuGrcVAAANCdk.jpg">
+				</div>
+				<div class="fotos" >
+					<img class="direita"  src="https://pbs.twimg.com/media/DPJuGrqUMAAyshE.jpg">
+				</div>
+				<div class="fotos">
+					<img class="esquerda" src="https://pbs.twimg.com/media/DPKXU1kWkAETPrK.jpg">
+				</div>
+				<div class="fotos">
+					<img class="centro" src="https://pbs.twimg.com/media/DPK_YTbX4AAKONp.jpg">
+				</div>
+				
+			</div>
+			<div class="moddle">
+			<img class="moddle-img" src="#" />
+		</div>
+		</main>
+	</body>
+	
+</html>

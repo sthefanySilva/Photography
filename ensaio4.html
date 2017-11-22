@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="pt-br">
+	<head> 
+		<meta charset="utf-8"/>
+		<title> Sobre Nós</title>
+		<link rel="stylesheet" type="text/css" href="./css/fotos.css" media="(min-width: 330px)"/>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+ 		
+		<script type="text/javascript" src="./js/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$('#nav-menu').click(function(){
+			     $('ul.nav-list').addClass('open').slideToggle('200');
+			 	});
+			
+				$(".fotos").on("click", function(){
+					var img = $(this).find("img").attr("src");
+					
+					$(".moddle-img").attr("src", img);
+
+					$(".moddle").css("display", "flex");
+				});
+				$(".moddle").on("click", function(){
+					$(this).css("display", "none");
+					$(".moddle-img").attr("src", "#")
+				});
+			});
+
+			
+		</script>
+		
+	</head>
+	<body>
+		<nav class="nav-bar">
+	  	 	<div class="nav-container"> 
+	       	 <a id="nav-menu" class="nav-menu">&#9776; Menu</a>
+	       	 <ul class="nav-list " id="nav">
+	            <li> <a href="./index.html" id="home">Home</a></li>
+	            <li> <a href="./conceituais_albuns.html" id="conceituais">Conceituais</a></li>
+	            <li> <a href="./natureza_albuns.html" id="natureza">Natureza</a></li>
+	            <li> <a href="./ensaios_albuns.html" id="ensaios">Ensaios</a></li>
+	            <li> <a href="./sobre_nos.html" id="sobre">Sobre nós</a></li>
+	       	 </ul>
+	    	</div>
+		</nav>
+		<div class="album1">
+			<div class="fotos">
+				<img class="esquerda" src="http://fashioncoolture.com.br/wp-content/uploads/2015/12/FashionCoolture-14.12.2015-look-du-jour-Dafiti-black-tshirt-6.jpg">
+			</div>
+			<div class="fotos">
+				<img class="centro" src="http://fashioncoolture.com.br/wp-content/uploads/2015/12/FashionCoolture-14.12.2015-look-du-jour-Dafiti-black-tshirt-2.jpg">
+			</div>
+			<div class="fotos">
+				<img class="centro" src="http://fashioncoolture.com.br/wp-content/uploads/2015/12/FashionCoolture-14.12.2015-look-du-jour-Dafiti-black-tshirt-1.jpg">
+			</div>
+			<div class="fotos">
+				<img class="direita" src="http://fashioncoolture.com.br/wp-content/uploads/2015/12/FashionCoolture-14.12.2015-look-du-jour-Dafiti-black-tshirt-5.jpg">
+			</div>
+			<div class="fotos">
+				<img class="esquerda" src="http://fashioncoolture.com.br/wp-content/uploads/2015/12/FashionCoolture-09.12.2015-look-du-jour-Pandora-rings-baby-pink-top-Burgundy-3.jpg">
+			</div>
+			<div class="fotos">
+				<img  class="direita" src="http://fashioncoolture.com.br/wp-content/uploads/2015/12/FashionCoolture-09.12.2015-look-du-jour-Pandora-rings-baby-pink-top-Burgundy-5.jpg">
+			</div>
+			<div class="fotos">
+				<img  class="esquerda" src="http://fashioncoolture.com.br/wp-content/uploads/2015/12/FashionCoolture-09.12.2015-look-du-jour-Pandora-rings-baby-pink-top-Burgundy-6.jpg">
+			</div>
+			<div class="fotos">
+				<img class="centro" src="http://fashioncoolture.com.br/wp-content/uploads/2015/12/FashionCoolture-09.12.2015-look-du-jour-Pandora-rings-baby-pink-top-Burgundy-7.jpg">
+			</div>
+			<div class="fotos">
+				<img class="direita" src="http://fashioncoolture.com.br/wp-content/uploads/2015/12/FashionCoolture-09.12.2015-look-du-jour-Pandora-rings-baby-pink-top-Burgundy-8.jpg">
+			</div>
+			<div class="fotos">
+				<img class="esquerda" src="http://fashioncoolture.com.br/wp-content/uploads/2015/12/FashionCoolture-10.12.jpg">
+			</div>
+			<div class="fotos">
+				<img class="centro" src="http://fashioncoolture.com.br/wp-content/uploads/2015/12/FashionCoolture-10.12.2015-look-du-jour-Shoulder-white-romper-leopard-print-1.jpg">
+			</div>
+			<div class="fotos">
+				<img class="esquerda" src="http://fashioncoolture.com.br/wp-content/uploads/2015/12/FashionCoolture-10.12.2015-look-du-jour-Shoulder-white-romper-leopard-print-5.jpg">
+			</div>
+			<div class="fotos">
+				<img class="centro" src="http://fashioncoolture.com.br/wp-content/uploads/2015/12/FashionCoolture-10.12.2015-look-du-jour-Shoulder-white-romper-leopard-print-6.jpg">
+			</div>
+			<div class="fotos" >
+				<img class="direita"  src="http://fashioncoolture.com.br/wp-content/uploads/2016/01/FashionCoolture-17.01.2015-Amaro-flowers-top-boho-bag-1.jpg">
+			</div>
+			<div class="fotos">
+				<img class="esquerda" src="http://fashioncoolture.com.br/wp-content/uploads/2016/01/FashionCoolture-17.01.2015-Amaro-flowers-top-boho-bag-2.jpg">
+			</div>
+			<div class="fotos">
+				<img class="centro" src="http://fashioncoolture.com.br/wp-content/uploads/2016/01/FashionCoolture-17.01.2015-Amaro-flowers-top-boho-bag-4.jpg">
+			</div>
+			<div class="fotos">
+				<img class="direita" src="http://fashioncoolture.com.br/wp-content/uploads/2016/01/FashionCoolture-17.01.2015-Amaro-flowers-top-boho-bag-5.jpg">
+			</div>
+			
+			<div class="fotos">
+				<img class="centro" src="http://fashioncoolture.com.br/wp-content/uploads/2016/01/FashionCoolture-17.01.2015-Amaro-flowers-top-boho-bag-7.jpg">
+			</div>
+			
+		</div>
+		<div class="moddle">
+			<img class="moddle-img" src="#" />
+		</div>
+
+
+
+
+		
+   		
+	</body>
+	
+</html>
+</html>	
